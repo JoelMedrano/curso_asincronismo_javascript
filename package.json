@@ -1,0 +1,27 @@
+{
+  "name": "curso_asincronismo_javascript",
+  "version": "1.0.0",
+  "description": "trabajar con asincronismo",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise": "node promise/index.js",
+    "promise:challenge": "node promise/challenge.js",
+    "async": "node async/index.js",
+    "async:challenge": "node async/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoelMedrano/curso_asincronismo_javascript.git"
+  },
+  "author": "Joel Medrano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoelMedrano/curso_asincronismo_javascript/issues"
+  },
+  "homepage": "https://github.com/JoelMedrano/curso_asincronismo_javascript#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
